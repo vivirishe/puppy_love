@@ -1,3 +1,58 @@
 body{
-  background: red;
+
+  background-image: url("https://thumb1.shutterstock.com/display_pic_with_logo/2730304/409064038/stock-vector-vector-seamless-flat-hand-drawn-dog-pattern-with-bones-hearts-paw-trace-different-sizes-isolated-409064038.jpg");
+  background-size: cover;
+  font-family: 'BioRhyme', serif;
 }
+h1{
+  text-align: center;
+  color: white;
+  /*color: rgba(0, 0, 0, 0.5);*/
+  font-weight: bold;
+}
+h3{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+img{
+  margin: auto;
+  display: block;
+  max-width: 350px;
+  max-height: 350px;
+}
+section{
+  border: 4px solid black;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  background: rgba(120, 120, 0, 0.9);
+  width: 70%;
+  margin: 10px auto;
+}
+h2{
+  color: white;
+  padding: 10px;
+}
+p{
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+li{
+  color: black;
+  font-weight: bold;
+}
+/*
+Test for id's in a section
+#profile{
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: rgba(120, 120, 0, 0.9);
+}
+#done{
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: rgba(120, 120, 0, 0.9);
+}*/
